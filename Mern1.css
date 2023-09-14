@@ -1,0 +1,51 @@
+
+  *{
+    text-align: center;
+  }
+   .section{
+    margin-top: 10px;
+   }
+  .topnav{
+    background-color: lightgray;
+    margin-top: 5px;
+  }
+  .topnav a{
+    background-color: #ffffff;
+    color: black;
+    padding:5px;
+    text-decoration: none;
+  }
+  
+
+.img{
+    height:600px;
+    width:600px;
+    border: 1px solid grey;
+    border-radius:5px;
+}
+
+.cont{
+    display:flex;
+    flex-direction: column;
+}
+
+.project-item{
+    padding:10px;
+    margin:10px;
+}
+
+.form{
+    padding:5px;
+}
+
+@media screen and (min-width:1000px) {
+      .cont{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .img{
+        width:400px;
+      }
+}
